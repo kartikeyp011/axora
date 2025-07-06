@@ -234,7 +234,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              {footerLinks.support.map((link, index) => (
+              {footerLinks.support.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
